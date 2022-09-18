@@ -4,7 +4,7 @@ const router = express.Router();
 
 const { getHealth } = require('./healthController');
 
-// /api/Health
+// /api/health
 router.get('/', getHealth);
 
 module.exports = router;
